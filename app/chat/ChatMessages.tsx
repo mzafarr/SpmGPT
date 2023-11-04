@@ -3,7 +3,7 @@ import { cn } from "../lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
 import { FC, Ref, forwardRef, useEffect, useRef } from "react";
 import ReactMarkdown from "react-markdown";
-import logo from "../../../public/word.png";
+import logo from "../../public/word.png";
 import Image from "next/image";
 interface ChatMessagesProps {
   history: Array<[string, string]>;
